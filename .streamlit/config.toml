@@ -3,3 +3,12 @@
 enableCORS = true
 # 关键设置：允许在iframe中加载
 enableXsrfProtection = false
+
+[browser]
+serverAddress = "0.0.0.0"
+serverPort = 8501
+# 启用gzip压缩
+gzip = true
+
+[server]
+maxUploadSize = 200  # 根据你的文件上传大小调整，单位MB
