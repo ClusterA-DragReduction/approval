@@ -1,0 +1,5 @@
+[server]
+# 允许被特定域名嵌入，设置为 "ALLOWALL" 则允许被任何网站嵌入（测试用）
+enableCORS = true
+# 关键设置：允许在iframe中加载
+enableXsrfProtection = false
